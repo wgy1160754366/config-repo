@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 138wwdas21231tVzqpWrBf3?6
+    url: jdbc:mysql://127.0.0.1:3306/goods?useUnicode=true&characterEncoding=UTF-8&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&allowMultiQueries=true
+  jpa:
+    show-sql: true
+server:
+  port: 8081
+env:
+  dev
+girl:
+  name: songlinling
+  age: 21
