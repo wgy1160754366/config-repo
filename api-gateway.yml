@@ -1,0 +1,13 @@
+server:
+  port: 8083
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+
+#简写
+#    product: /myProduct/**
+  ignored-patterns:
+    - /**/product/lists
